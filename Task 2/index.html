@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskar - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul class = "bookmarks">
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#aboutme"><li>About</li></a>
+                    <a href="#myservices"><li>Services</li></a>
+                    <a href="#myportfolio"><li>Portfolio</li></a>
+                    <a href="#contactme"><li>Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id = "home" class="first">
+            <div class="leftSection">
+                <div>
+                    Hi, My name is
+                    <span class = "purple">Bhaskar</span>
+                </div>
+            <div>And I'm a Passionate</div>
+            <span id="element"></span>
+            <div class="buttons">
+                <a href="bhaskar resume.pdf" download class = "btn">Download Resume</a>
+                <a href="https://github.com/BhaskarM30" target="_blank" class = "btn">Visit GitHub</a>
+                
+            </div>
+        </div>
+            <div class="rightSection">
+                <img src="bggg.webp" alt="">
+            </div>
+        </section>
+        <hr>
+    <!------About me--->
+        <div id = "aboutme" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">
+                        <img src="bgg2.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <h1>About Me</h1>
+                        <p>
+                            Hello! I'm Bhaskar Manral, a dedicated software developer with a passion for creating impactful and efficient digital solutions. With expertise in HTML, CSS, JavaScript, Python, React, Node.js, I have a proven track record of delivering high-quality web applications.
+                        </p>
+                        <div class="tab-titles">
+                            <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                            <div class="tab-links" onclick="opentab('education')"">Education</div>
+                        </div>
+                        <div class="tab-contents active-tab" id = "skills">
+                            <ul>
+                                <li><span>Web Deverlopment</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id = "education">
+                            <ul>
+                                <li><span>2022-2026</span><br>B.tech from JSS, Noida</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div id = "myservices" class="services">
+            <h1>My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>As a professional web designer, I specialize in creating visually stunning and highly functional websites tailored to meet your unique needs. My approach combines creativity, technical expertise, and a deep understanding of user experience to deliver websites that not only look great but also perform exceptionally.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>As an experienced app designer, I specialize in creating intuitive and visually engaging mobile applications that provide seamless user experiences. My approach combines creative design, user-centered principles, and technical expertise to deliver apps that not only look amazing but also function flawlessly.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- --------------Portfolio--------- -->
+        <div id = "myportfolio" class="portfolio">
+            <h1>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="smedia.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app aims to provide a seamless platform for users to share content, interact with friends, and discover new communities. The app combines an intuitive user interface with powerful features, ensuring an enjoyable and engaging user experience.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class = "music" src="musicc.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>This app offers a seamless and intuitive platform for music lovers to explore their favorite tracks, discover new artists, and create personalized playlists. Combining a sleek design with robust features, the app provides a captivating user experience.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="movies.png" alt="">
+                    <div class="layer">
+                        <h3>Online Movies App</h3>
+                        <p>This app provides a seamless and immersive platform for users to explore a vast library of films, discover new favorites, and enjoy high-quality streaming. Combining a sleek design with robust features, the app offers an engaging and user-friendly experience.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!------------Contact me Section-->
+        <div id = "contactme" class="contact">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>
+                        Contact Me
+                    </h1>
+                    <a href="mailto:manralbhaskar04@gmail.com">
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>manralbhaskar04@gmail.com</p>
+                    </a>
+                    <a href="tel:8368611149">
+                        <p><i class="fa-solid fa-phone"></i>8368611149</p>
+                    </a>
+                    
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/bhaskar.manral.3?mibextid=kFxxJD">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/bhaskar._.manral?igsh=dzE0cndsbjc2czV5">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/bhaskar-manral-746760294/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name = "submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name = "Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows ="6" placeholder="Your Message"></textarea>
+                        <button class = "btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <div class="copyright">
+        <p>Copyright &#169; 2024 Bhaskar Manral. All Rights Reserved.</p>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
